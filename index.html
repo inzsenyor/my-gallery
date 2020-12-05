@@ -11,72 +11,58 @@
     <link rel="icon" href="devchallenges.png" />
 
     <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
-
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Gallery page | Devchallenges</title>
-
-    <style>
-      body {
-        font-family: 'Poppins', sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank">devchallenges.io</a>
-        </h1>
+    <div class="container">
+      <header class="user__details">
+        <div class="image__container">
+          <img src="./images/optimized/profilePhoto.png" alt="" />
+        </div>
+        <div class="user__infos">
+          <h2 class="user__name">Rodney Cotton</h2>
+          <p class="user__place">Helsinki, Finland</p>
+        </div>
+        <div class="socials">
+          <div class="socials__box">
+            <p class="socials__box--number">100</p>
+            <p class="socials__box--title">posts</p>
+          </div>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are 7 general steps to
-          complete the challenge:
-        </p>
-      </div>
+          <div class="socials__box">
+            <p class="socials__box--number">2,242</p>
+            <p class="socials__box--title">Followers</p>
+          </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li><b>Step 3:</b> Login to Figma to checkout font, color, spacing,..</li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other platforms to ask for
-          feedback
-        </li>
-      </ul>
+          <div class="socials__box">
+            <p class="socials__box--number">1,432</p>
+            <p class="socials__box--title">Following</p>
+          </div>
+        </div>
+      </header>
+      <section class="image__gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img src="./images/optimized/photo1.png" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img src="./images/optimized/photo2.png" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img src="./images/optimized/photo3.png" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img src="./images/optimized/photo4.png" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--5">
+          <img src="./images/optimized/photo5.png" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--6">
+          <img src="./images/optimized/photo6.png" alt="Gallery image 1" class="gallery__img" />
+        </figure>
+      </section>
+
+      <p class="devch">Tibor Kerekes @ DevChallenges.io</p>
     </div>
   </body>
 </html>
